@@ -18,8 +18,6 @@ function remainder(num1, num2) {
     return num1 % num2;
 }
 
-const name = function() {};
-
 
 const showAge = function () {
     return 21;
@@ -30,3 +28,10 @@ function greetings() {
     let timeOfTheDay = "morning";
     return "Good " + timeOfTheDay + ", " + name;
 }
+
+//elements = 3
+//max index 2
+let names = ["Basit", "Taiwo", "Bilal"];
+names.push('Feranmi', 'Tunde');
+names.pop();
+console.log(names);
