@@ -34,4 +34,16 @@ function greetings() {
 let names = ["Basit", "Taiwo", "Bilal"];
 names.push('Feranmi', 'Tunde');
 names.pop();
-console.log(names);
+//console.log(names);
+
+
+
+
+const fruitsList = ["Banana", "Orange", "Apple", "Mango"];
+fruitsList.splice(2, 0, "Lemon", "Kiwi");
+console.log(fruitsList[4]);
+
+
+const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+const citrus = fruits.slice(2, 5);
+console.log(citrus);
