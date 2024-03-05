@@ -26,20 +26,28 @@ let txt = "";
 for (let x in person) {
     console.log(person[x]);
     //console.log(person[x]);
-  txt += person[x] + " "; // txt  = txt + person[x];
+  //txt += person[x] + " "; // txt  = txt + person[x];
 }
-console.log(txt);
+//console.log(txt);
 //document.getElementById("demo").innerHTML = txt;
 
 
 //foreach
 
-/* const numbers = [45, 4, 9, 16, 25];
+const numbers = [45, 4, 9, 16, 25];
 
-numbers.forEach(myFunction);
+let txt2 = "";
+numbers.forEach((number) => {
+  anything(number);
+});
 
-function myFunction(value) {
-  txt += value;
-}
- */
+function anything(value) {
+  txt2 += value;
+} 
+
+console.log(txt2);
+
+
+
+
 </script>
